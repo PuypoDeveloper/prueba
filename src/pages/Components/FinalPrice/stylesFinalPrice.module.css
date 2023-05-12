@@ -1,0 +1,222 @@
+.mainFinalPrice { 
+    background-color: #0e222c;
+    display: grid;
+    grid-template-rows: 2fr 1fr 2fr 1fr 1fr;
+    height: 91vh;
+    z-index: 999;
+}
+.title_price { 
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    width: 100%;
+    height: 100%;
+}
+.ctnTItlePrice { 
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8em;
+
+}
+
+/*ESTILOS TITULOS */
+
+.title{
+    display: grid;
+    justify-content: right;
+    align-items: center;
+    width: 50%;
+    position: relative;
+}
+
+.textOne { 
+    -webkit-text-stroke: 1px #FFFFFF;
+    -webkit-text-fill-color: #0B1B23; 
+    font-weight: 900;
+    font-size: 5em;
+    align-self: flex-start;
+    margin-bottom: 0.5em;
+}
+.textTwo{ 
+    color: #ec6e73;
+    font-weight: 500;
+    font-size: 6em;
+    text-shadow: 5px 6px 5px rgba(0,0,0,0.5);
+    position: absolute;
+    align-self: flex-end;
+    top: 0.5em;
+    left: 3.8em; 
+
+}
+
+.price { 
+    display: grid;
+    justify-content: left;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+.ctnPrice { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6em;
+    width: 24em;
+    gap: 0em 2em;
+    color: white;
+}
+
+.textCop { 
+    font-size: 30px;
+    margin-bottom: 0.5em;
+}
+
+/*ESTILOS TEXTO*/
+
+.textD { 
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3em;
+}
+.ctnTextD { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.textThree { 
+    font-size: 19px;
+}
+
+/*ESTILOS BOTONES GRANDES*/
+ 
+.btnNewCotizacion { 
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: -3em;
+}
+.ctnBtnNewCotizacion { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 80%;
+    gap: 2em;
+}
+
+.newCotizacion { 
+    height: 90%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    clip-path: polygon(8% 0%, 92% 8%, 100% 75%, 0% 100%);
+    background-color: #46eab317;
+    box-shadow: 0 0 0 2px #000;
+    box-shadow: 10px 10px 10px rgb(6, 201, 23);
+
+}
+.orderNow { 
+    height: 90%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding: 0.7em;
+    clip-path: polygon(8% 8%, 92% 0%, 100% 100%, 0% 75%);
+    background-color: #ec6e7260;
+}
+.orderNowTwo { 
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    clip-path: polygon(8% 8%, 92% 0%, 100% 100%, 0% 75%);
+    background-color: #46eab34f;
+}
+
+
+
+
+/*ESTILOS BOTONES GRANDES*/
+.firstTitle { 
+    -webkit-text-stroke: 1px #FFFFFF;
+    -webkit-text-fill-color: #0B1B23; 
+    font-weight: 900;
+    font-size: 3.5em;
+    margin: 0em auto;
+    align-self: flex-start;
+    margin-bottom: 0.5em;
+}
+.secondTitle { 
+    color: #ec6e73;
+    font-weight: 500;
+    font-size: 3em;
+    text-shadow: 5px 6px 5px rgba(0,0,0,0.5);
+    position: absolute;
+    align-self: flex-end;
+    top: 1.2em;
+    left: 1.93em;
+}
+
+.secondTitleTwo { 
+    color: #ec6e73;
+    font-weight: 500;
+    font-size: 3.5em;
+    text-shadow: 5px 6px 5px rgba(0,0,0,0.5);
+    position: absolute;
+    align-self: flex-end;
+    top: 1.01em;
+    left: 2em;
+}
+
+/*ESTILOS BOTON*/
+
+.details { 
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: -3em;
+}
+.ctnDetails { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 100%;
+    gap: 1em;
+}
+.ctnTextDetails { 
+    display: flex;
+    gap: 0.3em;
+}
+.ctnBtnDetails { 
+    width: 20%;
+    height: 100%;
+}
+.textFour { 
+    color: white;
+}
+.textFive { 
+    color: #46eab3;
+}
+.linkBtn { 
+    text-decoration: none;
+}

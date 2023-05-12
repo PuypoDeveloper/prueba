@@ -1,0 +1,85 @@
+.mainDivisa { 
+    display: grid;
+    width: 100vw;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.ctnDivisas { 
+    display: flex;
+    gap: 2.5em;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 100%;
+
+}
+.usa img{ 
+    width: 10%;
+    height: 90%;
+    right: -1.8em;
+    position: absolute;
+    border-radius: 70px;
+    border: solid 2px #46eab3 ;
+
+}
+.cop img { 
+    width: 10%;
+    height: 90%;
+    left: -1.8em;
+    position: absolute;
+    border-radius: 70px;
+    border-radius: 70px;
+    border: solid 2px #46eab3 ;
+}
+.usa { 
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 60%;
+    height: 2em;
+    position: relative;
+}
+
+.ctnText { 
+    background-color: #0B1B23;
+    border: solid 2px #46eab3 ;
+    width: 28%;
+    height: 1.4em;
+    border-top-left-radius: 10px;
+}
+.ctnTextTwo { 
+    background-color: #0B1B23;
+    border: solid 2px #46eab3 ;
+    width: 28%;
+    height: 1.4em;
+    border-top-right-radius: 10px;
+}
+
+.cop{ 
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 60%;
+    height: 2em;
+    position: relative;
+}
+.ctnIcon { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icon { 
+    transform: rotate(90deg);
+    font-size: 30px;
+    color: #46eab3b6 ;
+}
+.ctnIcon { 
+    width: 1.8em;
+}
+.textDolar { 
+    color: white;
+    text-align: center;
+}
